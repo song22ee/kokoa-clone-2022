@@ -1,0 +1,132 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+
+.find-icons__icon i {
+    margin-bottom: 25px;
+}
+
+.recommended-friends {
+    padding: 20px 0;
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends p {
+    font-size: 16px;
+    margin: 60px 0;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.open-chat {
+    padding: 20px 0;
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.open-chat__header a {
+    opacity: 0.6;
+}
+
+.open-chat__header a i {
+    margin-left: 5px;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: var(--main-border);
+}
+
+.open-post__column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: var(--grey);
+}
+
+.open-post__title {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.open-post__hashtags {
+    text-transform: uppercase;
+    margin: 6px 0;
+}
+
+.open-post__members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+.open-post__members img {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: var(--light-border);
+}
+
+.open-post__member-count {
+    font-size: 13px;
+}
+
+.open-post__members .divider {
+    background-color: var(--grey);
+    opacity: 0.4;
+    width: 1.7px;
+    height: 15px;
+}
+
+.open-post__member-status {
+    color: #ffaddf;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.open-post__main-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.open-chat__heart-count {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+}
