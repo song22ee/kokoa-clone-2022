@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Create An Account</h1>
+    <form>
+        <div><label>First name</label> <input type="text" placeholder="First name" required /></div>
+        <div><label>Last name</label> <input type="text" placeholder="Last name" required /></div>
+        <div><label>Email</label> <input type="text" placeholder="Email" required /></div>
+        <div><label>Username</label> <input type="text" placeholder="Username" required /></div>
+        <div><label>Password</label> <input type="password" placeholder="Password" required minlength="10" /></div>
+        <div><label>Birth date</label> <input type="date" required></div>
+        <div><label>How happy are you?</label> <input type="range" list="tickmarks"><datalist id="tickmarks">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+            </datalist></div>
+        <div><label>What is your fav.color?</label> <input type="color"></div>
+        <input type="submit" value="Create Account">
+
+
+
+    </form>
+</body>
+
+</html>
