@@ -1,0 +1,34 @@
+body {
+    background-color: #ff6446;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.one {
+    width: 222px;
+    height: 222px;
+    background-color: wheat;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two,
+.four {
+    width: 48px;
+    height: 48px;
+    background-color: #008080;
+    border: 3.2px solid white;
+}
+
+.three {
+    width: 188px;
+    height: 49px;
+    background-color: #008080;
+    border: 3.2px white dashed;
+    margin: 16px 0;
+}
