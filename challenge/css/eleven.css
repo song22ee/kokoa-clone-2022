@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grey: rgba(129, 129, 129, 0.37);
+    --yellow: #ffcd33;
+}
+
+body {
+    height: auto;
+    width: 380px;
+}
+
+header {
+    background-color: var(--yellow);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.search-box {
+    width: 93%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    margin-left: 14px;
+    padding: 0 40px;
+    justify-content: space-between;
+    box-shadow: 0 10px 2em -20px rgba(36, 35, 35, 0.288);
+}
+
+.search-box input {
+    margin-right: 10px;
+    border: none;
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search-box input::placeholder {
+    color: var(--grey);
+}
+.search-box i {
+    color: var(--grey);
+}
+
+.library__main {
+    padding: 0 20px;
+}
+
+.main-title {
+    margin-bottom: 20px;
+}
+
+.library__content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.book-of-the-day img {
+    width: 105px;
+    height: 160px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.book-of-the-day .book-author {
+    color: var(--grey);
+    margin: 8px 0;
+}
+
+.stars {
+    color: var(--yellow);
+}
+
+.stars :last-child {
+    color: var(--grey);
+}
+
+.book-categorys {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.book-category {
+    background-color: rgba(163, 161, 161, 0.144);
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.book-etc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.book-mark {
+    background-color: var(--yellow);
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.book-book {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.top-adventures {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+}
+
+.top-adventures::-webkit-scrollbar {
+    display: none;
+}
+
+.img {
+    width: 80px;
+    height: 110px;
+    background-color: beige;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.img-lg {
+    width: 100px;
+    height: 130px;
+}
+
+.top-adventures .library__content-column {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-adventures .stars {
+    font-size: xx-small;
+}
+
+.popular-authors {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.popular-authors .library__content-column {
+    margin-right: 25px;
+}
+
+.popular-authors .author-explain {
+    color: var(--grey);
+}
