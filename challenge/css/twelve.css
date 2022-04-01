@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --grey: rgba(128, 128, 128, 0.637);
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 70px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: white;
+    width: 360px;
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 0 50px;
+}
+
+header {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.album-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: rgb(255, 132, 87);
+    box-shadow: 0 8px 1em 0.2em rgba(255, 132, 87, 0.26);
+    margin-bottom: 40px;
+}
+
+.album-singer {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.album-title {
+    color: var(--grey);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.button {
+    width: 120px;
+    height: 45px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.144);
+}
+
+.button-shuffle {
+    background-color: black;
+    color: white;
+}
+
+.button-heart {
+    background-color: white;
+    margin-left: 12px;
+}
+
+.button-heart i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.button-heart span {
+    color: var(--grey);
+}
+
+.play-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.song {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.song:nth-child(2) {
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.144);
+}
+
+.song-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: pink;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-img i {
+    position: absolute;
+    color: white;
+}
+
+.song-column:nth-child(2) {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.song-column:last-child i {
+    color: var(--grey);
+}
+
+.song-singer {
+    font-size: 14px;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+
+.play-box {
+    background-color: black;
+    color: white;
+    width: 330px;
+    height: 70px;
+    padding: 0 25px;
+    border-radius: 50px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.336);
+    display: flex;
+    align-items: center;
+}
+
+.play-box__column:first-child {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    width: 145px;
+}
+
+.play-box__column:last-child {
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-right .album-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 30px;
+    box-shadow: 0 25px 2em rgba(255, 68, 0, 0.493);
+    margin: 50px 0 90px 0;
+}
+
+.play-long {
+    margin: 90px 0 110px 0;
+}
+
+.play-time {
+    color: var(--grey);
+    width: 300px;
+    height: 25px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-bar {
+    width: 300px;
+    height: 5px;
+    background-color: var(--grey);
+    display: flex;
+}
+
+.play-bar__pass-time {
+    width: 60%;
+    height: 5px;
+    background-color: black;
+    position: relative;
+}
+
+.play-bar__circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: black;
+    position: absolute;
+    top: -3px;
+    right: -1px;
+}
+
+.main-right .play-box {
+    background-color: white;
+    box-shadow: none;
+    width: 340px;
+    height: 70px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-right .play-box div {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.336);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-right .play-box > i:first-child,
+.main-right .play-box > i:last-child {
+    color: var(--grey);
+}
